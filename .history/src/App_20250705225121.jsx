@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import {
   Header,
   Footer,
-  ErorPage,
   HomeLayout,
   DashboardLayout,
   AllCourse,

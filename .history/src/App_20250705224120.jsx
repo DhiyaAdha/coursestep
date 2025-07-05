@@ -6,8 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import {
   Header,
   Footer,
-  ErorPage,
-  HomeLayout,
   DashboardLayout,
   AllCourse,
   AddCourse,
@@ -21,27 +19,18 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLayout />,
-    errorElement: <ErorPage />,
-    // start children
-    children: [
-      {
-        path: "dashboard",
-        element: <DashboardLayout />,
-      },
-      {
-        path: "register",
-        element: <Register />,
-      },
-      {
-        path: "login",
-        element: <Login />,
-      },
-      {
-        path: "erorpage",
-        element: <ErorPage />,
-      }
-    ],
-    // end children
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardLayout />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);
 

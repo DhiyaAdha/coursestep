@@ -4,8 +4,6 @@ const Register = () => {
     return (
       <div>
         <h1>Register</h1>
-        <br />
-        <Link to="/login">Login</Link>
       </div>
     );
  }

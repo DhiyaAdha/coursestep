@@ -5,9 +5,8 @@ export { default as Register } from './auth/Register';
 // dashboard
 export { default as Header } from './dashboard/Header';
 export { default as DashboardLayout } from './dashboard/DashboardLayout';
-export { default as HomeLayout } from './HomeLayout';
+export { H } from './';
 export { default as Footer } from './dashboard/Footer';
-export { default as ErorPage } from './ErorPage';
 
 // features
 export { default as AllCourse } from './dashboard/course/AllCourse';

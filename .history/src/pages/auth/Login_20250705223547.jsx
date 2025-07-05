@@ -4,8 +4,6 @@ const Login = () => {
     return (
       <div>
         <h1>Login</h1>
-        <br>
-        </br>
         <Link to="/register">Register</Link>
       </div>
     );
